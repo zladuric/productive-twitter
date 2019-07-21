@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Productive Twitter",
-  "version": "1.0.1",
+  "name": "Fork of Productive Twitter",
+  "version": "0.0.1",
 
   "description": "Minimal and friendly theme for productive social sharing",
-  "short_name": "Productive Twitter",
+  "short_name": "Fork of Productive Twitter",
   "permissions": ["activeTab", "declarativeContent", "tabs"],
 
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
+      "matches": ["https://mobile.twitter.com/*"],
       "css": ["override.css"],
       "js": ["override.js"]
     }
